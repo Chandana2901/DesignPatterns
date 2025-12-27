@@ -57,13 +57,14 @@ house3.addGarage()
 house3.addSwimmingPool()
 
 # --- 
-print("HOUSE 1")
-print(house1)
+if __name__ == "__main__":
+    print("HOUSE 1")
+    print(house1)
 
-print("-"*20)
-print("HOUSE 2")
-print(house2)
+    print("-"*20)
+    print("HOUSE 2")
+    print(house2)
 
-print("*"*20)
-print("HOUSE 3")
-print(house3)
+    print("*"*20)
+    print("HOUSE 3")
+    print(house3)
